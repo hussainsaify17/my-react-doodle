@@ -1,0 +1,50 @@
+
+#togglebuttons {
+    display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 250px; /* account for borders */
+  width: 200px;
+}
+#togglebuttons > label{ 
+        width: 250px;
+        /* color: white; */
+        /* text-align: center; */
+        /* line-height: 100px; */
+        border: 1px solid white;
+}
+
+
+
+label> span > button:focus {
+    box-shadow:none !important
+}
+label {
+    float:left;
+    margin:4px;
+    margin-right: 200px;
+    background-color:#EFEFEF;
+    border-radius:4px;
+    border:1px solid #D0D0D0;
+    overflow:auto;
+       
+  }
+  
+label span {
+    text-align:center;
+    font-size: 12px;
+    padding:13px 0px;
+    display:block;
+  }
+  
+label input {
+    position:absolute;
+    top:-20px;
+  }
+  
+input:checked + span {
+    background-color:#404040;
+    color:#F7F7F7;
+    border-left: 10px solid green;
+  }
+  
