@@ -1,0 +1,1 @@
+xcopy /s "C:\Users\Asus\Desktop\react examples\test1" "C:\Users\Asus\Desktop\react examples\test2"
