@@ -1,0 +1,8 @@
+{
+  "name": "debouncelogic",
+  "version": "1.0.0",
+  "description": "Pass function and get a effective debounce function in return",
+  "main": "index.js",
+  "author": "Hussain Saify",
+  "license": "ISC"
+}
